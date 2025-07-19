@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 95%;
+}
+
+h1 {
+
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.glow {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    color: #c4d31e;
+    /* Solid fill color */
+    text-align: center;
+    animation: glow 2.5s ease-in-out infinite;
+    text-shadow:
+        0 0 5px #ed1b4f,
+        0 0 10px #135ac5,
+        0 0 15px #11631c,
+        0 0 20px #adc532;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow:
+            0 0 5px #ff0040,
+            0 0 10px #ff0040,
+            0 0 15px #ff3366,
+            0 0 20px #ff4d88;
+    }
+
+    50% {
+        text-shadow:
+            0 0 10px #700a5d,
+            0 0 20px #80156a,
+            0 0 30px #9e16c1,
+            0 0 40px #51148b;
+    }
+
+    100% {
+        text-shadow:
+            0 0 5px #ff0040,
+            0 0 10px #ff0040,
+            0 0 15px #ff3366,
+            0 0 20px #ff4d88;
+    }
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5em;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    color: #ffffff;
+}
+
+#user-score,
+#Comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    margin-top: 5rem;
+    background-color: #081b31;
+    color: #fff;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
