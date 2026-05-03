@@ -46,8 +46,8 @@ A simple and interactive **Rock Paper Scissors** game built using **HTML, CSS, a
 │── style.css # Styling file
 │── script.js # Game logic
 ```
-💡 Future Improvements
-Add animations for better user experience
-Include sound effects
-Add multiplayer mode
-Store scores using local storage
+## 💡 Future Improvements
+- Add animations for better user experience
+- Include sound effects
+- Add multiplayer mode
+- Store scores using local storage
